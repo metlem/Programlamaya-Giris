@@ -1,0 +1,9 @@
+from datetime import date
+
+year=date.today().year
+print("Now Year : ",year)
+
+birtday = int(input("Birtday : "))
+
+age=year-birtday
+print("Your age :",age)
